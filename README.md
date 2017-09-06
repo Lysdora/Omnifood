@@ -1,2 +1,2 @@
 # Omnifood
-https://lysdora.github.io/Omnifood/
+https://lysdora.github.io/omnifood/
