@@ -38,9 +38,11 @@ html {
 
 /* Remove defaut style to normalize */
 
+/*
 figure {
     margin: 0;
 }
+*/
 
 
 /* ------------------------------------------------------------------------------ */
@@ -249,6 +251,21 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+
+/* ------------------------------------------------------------------------------ */
+
+
+/* FEATURES */
+
+
+/* ------------------------------------------------------------------------------ */
+
+.section-features .long-copy {
+    margin-bottom: 40px;
+}
+
+
+
 /* ------------------------------------------------------------------------------ */
 
 
@@ -256,6 +273,11 @@ header {
 
 
 /* ------------------------------------------------------------------------------ */
+
+
+.section-meals {
+    padding: 0;
+}
 
 .meals-showcase {
     list-style: none;
@@ -265,19 +287,34 @@ header {
 .meals-showcase li {
     display: block;
     float: left;
-    width: 25%; /* 25x4 = 100% width */
+    width: 25%;
 }
 
-.meals-photo {
+.meal-photo {
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background-color: #000;
 }
 
 .meal-photo img {
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 
+.meal-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
 
 
 
