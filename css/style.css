@@ -36,6 +36,12 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/* Remove defaut style to normalize */
+
+figure {
+    margin: 0;
+}
+
 
 /* ------------------------------------------------------------------------------ */
 
@@ -242,3 +248,69 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+/* ------------------------------------------------------------------------------ */
+
+
+/* MEALS */
+
+
+/* ------------------------------------------------------------------------------ */
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%; /* 25x4 = 100% width */
+}
+
+.meals-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
