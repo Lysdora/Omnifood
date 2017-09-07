@@ -27,13 +27,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 /* Clear Float*/
@@ -311,6 +313,11 @@ header {
     margin-bottom: 40px;
 }
 
+.title-feature {
+    font-weight: 400;
+
+}
+
 
 
 /* ------------------------------------------------------------------------------ */
@@ -586,7 +593,7 @@ select,
 textarea {
     width: 100%;
     padding: 7px;
-    border-radius: 3px,
+    border-radius: 3px;
     border: 1px solid #ccc;    
 }
 
@@ -647,6 +654,7 @@ footer {
     text-decoration: none;
     border: 0;
     color: #888;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -664,6 +672,7 @@ footer {
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
  
