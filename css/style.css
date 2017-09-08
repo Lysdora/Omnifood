@@ -99,7 +99,6 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
-    word-spacing: 2px;
     letter-spacing: 1px;
 }
 
@@ -188,7 +187,7 @@ input[type=submit] {
     text-decoration: none;
     border-radius: 200px;
     /* Transition button */
-    -webkit-transition: ;
+  
     -webkit-transition: background-color 0.2s;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -278,6 +277,7 @@ header {
 
 /* ---------- MAIN NAV---------- */
 
+
 .main-nav {
     float: right;
     list-style: none;
@@ -306,6 +306,23 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+/* ----------MOBILE NAV---------- */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+
 
 /* ----------STICKY NAV---------- */
 
@@ -315,7 +332,7 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
-    -webkit-box-shadow: 0 2px 2px #;
+    -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
 }
